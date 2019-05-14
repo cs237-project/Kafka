@@ -1,8 +1,8 @@
-package com.imooc.kafka.consumer;
+package com.securityalertsystem.kafka.consumer;
 
 
 import com.google.gson.Gson;
-import com.imooc.kafka.common.MessageEntity;
+import com.securityalertsystem.kafka.common.MessageEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;

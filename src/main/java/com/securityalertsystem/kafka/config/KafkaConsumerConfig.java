@@ -1,7 +1,7 @@
-package com.imooc.kafka.config;
+package com.securityalertsystem.kafka.config;
 
 
-import com.imooc.kafka.common.MessageEntity;
+import com.securityalertsystem.kafka.common.MessageEntity;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,11 +1,11 @@
-package com.imooc.kafka.controller;
+package com.securityalertsystem.kafka.controller;
 
 
 import com.google.gson.Gson;
-import com.imooc.kafka.common.ErrorCode;
-import com.imooc.kafka.common.MessageEntity;
-import com.imooc.kafka.common.Response;
-import com.imooc.kafka.producer.SimpleProducer;
+import com.securityalertsystem.kafka.common.ErrorCode;
+import com.securityalertsystem.kafka.common.MessageEntity;
+import com.securityalertsystem.kafka.common.Response;
+import com.securityalertsystem.kafka.producer.SimpleProducer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

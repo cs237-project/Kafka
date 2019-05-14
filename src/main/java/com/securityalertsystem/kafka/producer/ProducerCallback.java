@@ -1,8 +1,8 @@
-package com.imooc.kafka.producer;
+package com.securityalertsystem.kafka.producer;
 
 
 import com.google.gson.Gson;
-import com.imooc.kafka.common.MessageEntity;
+import com.securityalertsystem.kafka.common.MessageEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.springframework.kafka.support.SendResult;

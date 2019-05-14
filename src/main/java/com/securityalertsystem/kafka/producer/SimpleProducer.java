@@ -1,7 +1,6 @@
-package com.imooc.kafka.producer;
+package com.securityalertsystem.kafka.producer;
 
-import com.google.gson.Gson;
-import com.imooc.kafka.common.MessageEntity;
+import com.securityalertsystem.kafka.common.MessageEntity;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
